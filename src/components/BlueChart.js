@@ -30,7 +30,7 @@ class BlueChart extends Component {
           </XYPlot>
         </div>
         <div className="bar-chart">
-          <XYPlot height={300} width={600}>
+          <XYPlot height={300} width={600} color="blue">
             <XAxis />
             <YAxis />
             <LineSeries
