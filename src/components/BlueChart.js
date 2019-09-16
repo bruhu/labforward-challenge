@@ -19,6 +19,7 @@ class BlueChart extends Component {
       <div className="bluechart-container">
         <h2>Blue Chart</h2>
         <div className="line-chart">
+          <p>Data</p>
           <XYPlot height={300} width={600}>
             <XAxis />
             <YAxis />
@@ -30,6 +31,7 @@ class BlueChart extends Component {
           </XYPlot>
         </div>
         <div className="bar-chart">
+          <p>Signal</p>
           <XYPlot height={300} width={600} color="blue">
             <XAxis />
             <YAxis />
