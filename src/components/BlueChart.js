@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import "../../node_modules/react-vis/dist/style.css";
-import { XYPlot, LineSeries } from "react-vis";
+import {
+  XYPlot,
+  LineSeries,
+  VerticalGridLines,
+  HorizontalGridLines,
+  XAxis,
+  YAxis
+} from "react-vis";
 
 class App extends Component {
   render() {
@@ -19,6 +26,10 @@ class App extends Component {
     return (
       <div className="App">
         <XYPlot height={300} width={300}>
+          {/* <VerticalGridLines /> */}
+          {/* <HorizontalGridLines /> */}
+          <XAxis />
+          <YAxis />
           <LineSeries data={data} />
         </XYPlot>
       </div>
