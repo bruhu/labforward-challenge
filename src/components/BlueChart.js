@@ -21,7 +21,11 @@ class BlueChart extends Component {
         <XYPlot height={300} width={600}>
           <XAxis />
           <YAxis />
-          <LineSeries  />
+          <LineSeries
+            data={dataImports[0].data.map((dataPoint, index) => {
+              return { x: index, y: dataPoint };
+            })}
+          />
         </XYPlot>
       </div>
     );
