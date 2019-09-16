@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import BlueChart from "./components/BlueChart";
 import RedChart from "./components/RedChart";
+import YellowChart from "./components/YellowChart";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* your code will go here */}
       <BlueChart />
       <RedChart />
+      <YellowChart />
     </div>
   );
 }
