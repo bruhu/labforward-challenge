@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../node_modules/react-vis/dist/style.css";
-import { XYPlot, LineSeries, XAxis, YAxis } from "react-vis";
+import { XYPlot, LineSeries, XAxis, YAxis, VerticalBarSeries } from "react-vis";
 
 class BlueChart extends Component {
   render() {
@@ -20,7 +20,7 @@ class BlueChart extends Component {
         <h2>Blue Chart</h2>
         <div className="line-chart">
           <p>Data</p>
-          <XYPlot height={300} width={600}>
+          <XYPlot height={300} width={600} stroke="blue">
             <XAxis />
             <YAxis />
             <LineSeries
@@ -35,7 +35,7 @@ class BlueChart extends Component {
           <XYPlot height={300} width={600} color="blue">
             <XAxis />
             <YAxis />
-            <LineSeries
+            <VerticalBarSeries
               data={dataImports[0].signal.map((signalPoint, index) => {
                 return { x: index, y: signalPoint };
               })}
