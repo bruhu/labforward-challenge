@@ -17,7 +17,7 @@ class RedChart extends Component {
 
     return (
       <div className="redchart-container">
-        <h2>Blue Chart</h2>
+        <h2>Red Chart</h2>
         <div className="line-chart">
           <p>Data</p>
           <XYPlot height={300} width={700} stroke="red">
