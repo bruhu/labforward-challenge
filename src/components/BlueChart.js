@@ -36,8 +36,8 @@ class BlueChart extends Component {
             <XAxis />
             <YAxis />
             <LineSeries
-              data={dataImports[0].data.map((dataPoint, index) => {
-                return { x: index, y: dataPoint };
+              data={dataImports[0].signal.map((signalPoint, index) => {
+                return { x: index, y: signalPoint };
               })}
             />
           </XYPlot>
