@@ -18,7 +18,18 @@ class BlueChart extends Component {
     return (
       <div className="bluechart-container">
         <h2>Blue Chart</h2>
-        <div className="stroke-chart">
+        <div className="line-chart">
+          <XYPlot height={300} width={600}>
+            <XAxis />
+            <YAxis />
+            <LineSeries
+              data={dataImports[0].data.map((dataPoint, index) => {
+                return { x: index, y: dataPoint };
+              })}
+            />
+          </XYPlot>
+        </div>
+        <div className="bar-chart">
           <XYPlot height={300} width={600}>
             <XAxis />
             <YAxis />
