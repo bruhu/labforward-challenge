@@ -12,13 +12,16 @@ class BlueChart extends Component {
         signal:[0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0]
       }
     ];
+
+    console.log(dataImports[0].data);
+
     return (
       <div className="bluechart-container">
         <h2>Blue Chart</h2>
         <XYPlot height={300} width={600}>
           <XAxis />
           <YAxis />
-          <LineSeries data={data} />
+          <LineSeries  />
         </XYPlot>
       </div>
     );
