@@ -19,7 +19,7 @@ class YellowChart extends Component {
         <h2>Yellow Chart</h2>
         <div className="line-chart">
           <p>Data</p>
-          <XYPlot height={300} width={700} stroke="yellow">
+          <XYPlot height={300} width={700} stroke="#DBC65F">
             <XAxis />
             <YAxis />
             <LineSeries
@@ -31,7 +31,7 @@ class YellowChart extends Component {
         </div>
         <div className="bar-chart">
           <p>Signal</p>
-          <XYPlot height={300} width={700} color="yellow">
+          <XYPlot height={300} width={700} color="#DBC65F">
             <XAxis />
             <YAxis />
             <VerticalBarSeries
