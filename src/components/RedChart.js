@@ -20,7 +20,7 @@ class RedChart extends Component {
         <h2>Red Chart</h2>
         <div className="line-chart">
           <p>Data</p>
-          <XYPlot height={300} width={700} stroke="#A4342B">
+          <XYPlot height={300} width={700} stroke="#C0442E">
             <XAxis />
             <YAxis />
             <LineSeries
@@ -32,7 +32,7 @@ class RedChart extends Component {
         </div>
         <div className="bar-chart">
           <p>Signal</p>
-          <XYPlot height={300} width={700} color="#A4342B">
+          <XYPlot height={300} width={700} color="#C0442E">
             <XAxis />
             <YAxis />
             <VerticalBarSeries
