@@ -1,13 +1,8 @@
 import React, { Component } from "react";
 import "../../node_modules/react-vis/dist/style.css";
-import {
-  XYPlot,
-  LineSeries,
-  XAxis,
-  YAxis
-} from "react-vis";
+import { XYPlot, LineSeries, XAxis, YAxis } from "react-vis";
 
-class App extends Component {
+class BlueChart extends Component {
   render() {
     const data = [
       { x: 0, y: 8 },
@@ -36,4 +31,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default BlueChart;
