@@ -24,7 +24,8 @@ class App extends Component {
       { x: 9, y: 0 }
     ];
     return (
-      <div className="App">
+      <div className="bluechart-container">
+        <h2>Chart Name</h2>
         <XYPlot height={300} width={300}>
           {/* <VerticalGridLines /> */}
           {/* <HorizontalGridLines /> */}
