@@ -14,10 +14,8 @@ class BlueChart extends Component {
     ];
     return (
       <div className="bluechart-container">
-        <h2>Chart Name</h2>
-        <XYPlot height={300} width={300}>
-          {/* <VerticalGridLines /> */}
-          {/* <HorizontalGridLines /> */}
+        <h2>Blue Chart</h2>
+        <XYPlot height={300} width={600}>
           <XAxis />
           <YAxis />
           <LineSeries data={data} />
