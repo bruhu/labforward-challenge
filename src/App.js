@@ -3,11 +3,12 @@ import "./App.css";
 import BlueChart from "./components/BlueChart";
 import RedChart from "./components/RedChart";
 import YellowChart from "./components/YellowChart";
-// import dataSequences from "./data/data.json";
+import dataSequences from "./data/data.json";
 
 function App() {
   return (
     <div className="App">
+      <Chart />
       <BlueChart />
       <RedChart />
       <YellowChart />
