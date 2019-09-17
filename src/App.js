@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./styles/App.css";
 import Chart from "./components/Chart";
 import dataSequences from "./data/data.json";
 
