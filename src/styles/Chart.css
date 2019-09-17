@@ -1,6 +1,7 @@
 .chart-container h2 {
   color: rgb(85, 85, 85);
   text-align: center;
+  margin-top: 100px;
 }
 
 .chart-container p {
@@ -9,8 +10,4 @@
 
 .line-chart {
   margin-bottom: 50px;
-}
-
-.bar-chart {
-  margin-bottom: 100px;
 }

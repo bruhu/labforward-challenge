@@ -11,3 +11,10 @@
   color: rgb(41, 41, 41);
   font-family: "Roboto", sans-serif;
 }
+
+footer {
+  font-style: italic;
+  font-size: 15px;
+  margin: 50px;
+  color: rgb(100, 100, 100);
+}
