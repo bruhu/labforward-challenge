@@ -2,3 +2,15 @@
   color: rgb(85, 85, 85);
   text-align: center;
 }
+
+.chart-container p {
+  margin-left: 70px;
+}
+
+.line-chart {
+  margin-bottom: 50px;
+}
+
+.bar-chart {
+  margin-bottom: 100px;
+}
