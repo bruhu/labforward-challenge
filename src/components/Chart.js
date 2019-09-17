@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import "../../node_modules/react-vis/dist/style.css";
 import { XYPlot, LineSeries, XAxis, YAxis, VerticalBarSeries } from "react-vis";
 
-class RedChart extends Component {
+class Chart extends Component {
     render(){
         const{sequence} = this.props;
     
     return (
-        <div className="redchart-container"/>
+        <div className="chart-container"/>
           <h2>{sequence.title}</h2>
           <div className="line-chart">
             <p>Data</p>
@@ -38,4 +38,4 @@ class RedChart extends Component {
     }
   }
 
-export default RedChart;
+export default Chart;
