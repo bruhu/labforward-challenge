@@ -12,9 +12,9 @@ function App() {
       {dataSequences.map(dataSequence => (
         <Chart sequence={dataSequence} key={dataSequence.title} />
       ))}
-      <BlueChart />
+      {/* <BlueChart />
       <RedChart />
-      <YellowChart />
+      <YellowChart /> */}
     </div>
   );
 }
