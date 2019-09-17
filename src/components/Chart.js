@@ -3,18 +3,9 @@ import "../../node_modules/react-vis/dist/style.css";
 import { XYPlot, LineSeries, XAxis, YAxis, VerticalBarSeries } from "react-vis";
 
 class RedChart extends Component {
-  render() {
-    // prettier-ignore
-    const dataImports = [
-      {
-        title: "red chart",
-    data: [0,2,1,2,3,10,12,1,1,2,3,0,1,2,1,2,7,6,9,1,2,0,1,2,1,2,1,3,0,2,3,1,1,2,3,10,9,12,0,2,3,1,2,0,1,7,11,0,1,2],
-    signal:[0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0]
-  }
-    ];
-
-    console.log(dataImports[0].data);
-
+    render(){
+        const{sequence} = this.props;
+    }
     return (
       <div className="redchart-container">
         <h2>Red Chart</h2>
