@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/App.css";
-import Chart from "./components/Chart";
-import dataSequences from "./data/data.json";
+import "./../styles/App.css";
+import Chart from "./Chart";
+import dataSequences from "../data/data.json";
 
 function App() {
   return (
